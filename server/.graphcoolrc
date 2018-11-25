@@ -1,0 +1,9 @@
+clusters:
+  local:
+    host: 'http://localhost:60000'
+    faasHost: 'http://localhost:60050'
+    clusterSecret: >-
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MTc1NjQ2ODAsImNsaWVudElkIjoiY2pkNXE3dzMwMDAwMDAxMTJnMHRybjlmdSJ9.QqXLH2JiGQICtVH5X_NpvuVQG06OLkqe_-V0mLJJagI
+targets:
+  dev: local/cjd5rv5c100020112qam450ks
+  default: dev
